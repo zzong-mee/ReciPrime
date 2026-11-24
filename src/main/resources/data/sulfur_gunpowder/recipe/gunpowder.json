@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "sulfur_gunpowder:nether_mineral_crystal",
-    "sulfur_gunpowder:nether_mineral_crystal",
+    "sulfur_gunpowder:nether_quartz_powder",
+    "sulfur_gunpowder:nether_quartz_powder",
     "sulfur_gunpowder:sulfur_powder",
     "#minecraft:coals",
     "#minecraft:coals",
