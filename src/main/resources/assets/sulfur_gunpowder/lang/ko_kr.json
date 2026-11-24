@@ -1,4 +1,5 @@
 {
   "item.sulfur_gunpowder.sulfur_powder": "유황 가루",
-  "itemGroup.sulfur_gunpowder.main": "유황 화약"
+  "itemGroup.sulfur_gunpowder.main": "유황 화약",
+  "item.sulfur_gunpowder.nether_mineral_crystal": "네더 광물 결정"
 }
