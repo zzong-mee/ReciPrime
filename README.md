@@ -21,6 +21,16 @@ The goal is to encourage mining, exploration, and resource gathering while maint
 - Dedicated creative inventory tab
 - Shapeless gunpowder crafting recipe
 
+### In-game Screenshots
+
+**Nether Quartz Powder — inventory**
+
+![Nether Quartz Powder in inventory](docs/images/nether_quartz_powder_inventory.png)
+
+**JEI crafting preview**
+
+![JEI crafting preview](docs/images/gunpowder_recipe_jei.png)
+
 ### Development Roadmap
 
 | Version | Development Goals | Status |
@@ -78,6 +88,16 @@ Sulfur Gunpowder는 바닐라 마인크래프트에 존재하는 유황 블록�
 - 한국어 및 영어 지원
 - 크리에이티브 인벤토리 전용 탭
 - 비정형 화약 제작 조합법
+
+### 인게임 스크린샷
+
+**네더 석영 가루 — 인벤토리**
+
+![네더 석영 가루 인벤토리](docs/images/nether_quartz_powder_inventory.png)
+
+**JEI 조합법 화면**
+
+![JEI 조합법 화면](docs/images/gunpowder_recipe_jei.png)
 
 ### 개발 로드맵
 
