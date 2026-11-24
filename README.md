@@ -14,12 +14,19 @@ The goal is to encourage mining, exploration, and resource gathering while maint
 
 ### Features
 
-- New item: Sulfur Powder
+- New items: Sulfur Powder and Nether Quartz Powder
 - Custom vanilla-style 16×16 pixel texture
 - Sulfur block decomposition recipe
 - English and Korean localization
 - Dedicated creative inventory tab
 - Shapeless gunpowder crafting recipe
+
+### v0.4.0 Highlights
+
+- Nether Quartz Powder with a custom quartz-inspired texture.
+- Additional mining rewards from Nether quartz ore, with Fortune support.
+- Silk Touch exclusion implemented; final verification pending.
+- In-game inventory and JEI display verified.
 
 ### Development Roadmap
 
@@ -28,7 +35,7 @@ The goal is to encourage mining, exploration, and resource gathering while maint
 | v0.1.0 | Sulfur Powder item, custom texture, and sulfur block decomposition | Implemented |
 | v0.2.0 | Localization improvements and dedicated creative inventory tab | Implemented |
 | v0.3.0 | Shapeless gunpowder crafting recipe | Implemented |
-| v0.4.0 | Recipe balancing and survival gameplay improvements | Planned |
+| v0.4.0 | Nether Quartz Powder, mining rewards and gameplay balancing | Implemented |
 | v1.0.0 | First stable official release | Planned |
 
 ### Requirements
@@ -72,12 +79,19 @@ Sulfur Gunpowder는 바닐라 마인크래프트에 존재하는 유황 블록�
 
 ### 주요 기능
 
-- 신규 아이템: 유황 가루
+- 신규 아이템: 유황 가루, 네더 석영 가루
 - 바닐라 스타일의 16×16 픽셀 전용 텍스처
 - 유황 블록 분해 조합법
 - 한국어 및 영어 지원
 - 크리에이티브 인벤토리 전용 탭
 - 비정형 화약 제작 조합법
+
+### v0.4.0 주요 변경 사항
+
+- 네더 석영 색상을 반영한 전용 가루 텍스처 추가.
+- 네더 석영 광석 추가 채굴 보상 및 행운 인챈트 지원.
+- 섬세한 손길 예외 처리 구현 (최종 검증 예정).
+- 인게임 인벤토리 및 JEI 표시 확인 완료.
 
 ### 개발 로드맵
 
@@ -86,7 +100,7 @@ Sulfur Gunpowder는 바닐라 마인크래프트에 존재하는 유황 블록�
 | v0.1.0 | 유황 가루 아이템, 전용 텍스처 및 유황 블록 분해 조합법 추가 | 구현 완료 |
 | v0.2.0 | 아이템 번역 개선 및 크리에이티브 인벤토리 전용 탭 추가 | 구현 완료 |
 | v0.3.0 | 비정형 화약 제작 조합법 추가 | 구현 완료 |
-| v0.4.0 | 조합법 밸런스 조정 및 생존 플레이 개선 | 개발 예정 |
+| v0.4.0 | 네더 석영 가루, 채굴 보상 및 생존 밸런스 개선 | 구현 완료 |
 | v1.0.0 | 최초 정식 안정 버전 출시 | 출시 예정 |
 
 ### 설치 요구 사항
