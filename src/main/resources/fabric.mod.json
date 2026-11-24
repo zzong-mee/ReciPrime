@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sulfur_gunpowder",
+  "version": "${version}",
+  "name": "Sulfur Gunpowder",
+  "description": "Adds a sulfur powder item and a sulfur block unpacking recipe.",
+  "license": "CC0-1.0",
+  "icon": "assets/sulfur_gunpowder/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.sulfurgunpowder.SulfurGunpowder"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
