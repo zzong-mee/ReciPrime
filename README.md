@@ -18,16 +18,16 @@ The goal is to encourage mining, exploration, and resource gathering while maint
 - Custom vanilla-style 16×16 pixel texture
 - Sulfur block decomposition recipe
 - English and Korean localization
-- Dedicated creative inventory tab (planned)
-- Gunpowder crafting recipe (planned)
+- Dedicated creative inventory tab
+- Shapeless gunpowder crafting recipe
 
 ### Development Roadmap
 
 | Version | Development Goals | Status |
 |---|---|---|
 | v0.1.0 | Sulfur Powder item, custom texture, and sulfur block decomposition | Implemented |
-| v0.2.0 | Localization improvements and dedicated creative inventory tab | In development |
-| v0.3.0 | Gunpowder crafting recipe | Planned |
+| v0.2.0 | Localization improvements and dedicated creative inventory tab | Implemented |
+| v0.3.0 | Shapeless gunpowder crafting recipe | Implemented |
 | v0.4.0 | Recipe balancing and survival gameplay improvements | Planned |
 | v1.0.0 | First stable official release | Planned |
 
@@ -76,16 +76,16 @@ Sulfur Gunpowder는 바닐라 마인크래프트에 존재하는 유황 블록�
 - 바닐라 스타일의 16×16 픽셀 전용 텍스처
 - 유황 블록 분해 조합법
 - 한국어 및 영어 지원
-- 크리에이티브 인벤토리 전용 탭 (예정)
-- 화약 제작 조합법 (예정)
+- 크리에이티브 인벤토리 전용 탭
+- 비정형 화약 제작 조합법
 
 ### 개발 로드맵
 
 | 버전 | 개발 목표 | 상태 |
 |---|---|---|
 | v0.1.0 | 유황 가루 아이템, 전용 텍스처 및 유황 블록 분해 조합법 추가 | 구현 완료 |
-| v0.2.0 | 아이템 번역 개선 및 크리에이티브 인벤토리 전용 탭 추가 | 개발 중 |
-| v0.3.0 | 화약 제작 조합법 추가 | 개발 예정 |
+| v0.2.0 | 아이템 번역 개선 및 크리에이티브 인벤토리 전용 탭 추가 | 구현 완료 |
+| v0.3.0 | 비정형 화약 제작 조합법 추가 | 구현 완료 |
 | v0.4.0 | 조합법 밸런스 조정 및 생존 플레이 개선 | 개발 예정 |
 | v1.0.0 | 최초 정식 안정 버전 출시 | 출시 예정 |
 
