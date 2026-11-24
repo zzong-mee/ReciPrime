@@ -1,16 +1,17 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "BCB",
-    "BSB",
-    "BCB"
+  "ingredients": [
+    "minecraft:bone_meal",
+    "minecraft:bone_meal",
+    "minecraft:bone_meal",
+    "minecraft:bone_meal",
+    "minecraft:bone_meal",
+    "minecraft:bone_meal",
+    "minecraft:charcoal",
+    "minecraft:charcoal",
+    "sulfur_gunpowder:sulfur_powder"
   ],
-  "key": {
-    "B": "minecraft:bone_meal",
-    "C": "minecraft:charcoal",
-    "S": "sulfur_gunpowder:sulfur_powder"
-  },
   "result": {
     "id": "minecraft:gunpowder",
     "count": 2
