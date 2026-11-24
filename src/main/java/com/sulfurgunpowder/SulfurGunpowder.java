@@ -4,7 +4,6 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.loot.v3.LootTableEvents;
 import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.entries.NestedLootTable;
-import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
 import net.minecraft.world.level.block.Blocks;
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.minecraft.network.chat.Component;
@@ -35,9 +34,9 @@ public class SulfurGunpowder implements ModInitializer {
 
         LootTableEvents.MODIFY.register((lootKey, builder, source, registries) -> {
             if (source.isBuiltin() && lootKey.equals(Blocks.NETHER_QUARTZ_ORE.getLootTable().orElseThrow())) {
-                builder.withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(1))
-                    .add(NestedLootTable.lootTableReference(ResourceKey.create(Registries.LOOT_TABLE,
-                        Identifier.fromNamespaceAndPath(MOD_ID, "blocks/nether_mineral_crystal")))));
+                builder.withPool(LootPool.lootPool()
+                    .add(NestedLootTable.lootTableReference(registries.lookupOrThrow(Registries.LOOT_TABLE).getOrThrow(ResourceKey.create(Registries.LOOT_TABLE,
+                        Identifier.fromNamespaceAndPath(MOD_ID, "blocks/nether_mineral_crystal"))))));
             }
         });
 
