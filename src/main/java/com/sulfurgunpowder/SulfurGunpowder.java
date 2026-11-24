@@ -1,6 +1,11 @@
 package com.sulfurgunpowder;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.loot.v3.LootTableEvents;
+import net.minecraft.world.level.storage.loot.LootPool;
+import net.minecraft.world.level.storage.loot.entries.NestedLootTable;
+import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
+import net.minecraft.world.level.block.Blocks;
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -27,6 +32,14 @@ public class SulfurGunpowder implements ModInitializer {
         ResourceKey<Item> crystalKey = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(MOD_ID, "nether_mineral_crystal"));
         NETHER_MINERAL_CRYSTAL = Registry.register(BuiltInRegistries.ITEM, crystalKey,
             new Item(new Item.Properties().setId(crystalKey).stacksTo(64)));
+
+        LootTableEvents.MODIFY.register((lootKey, builder, source, registries) -> {
+            if (source.isBuiltin() && lootKey.equals(Blocks.NETHER_QUARTZ_ORE.getLootTable().orElseThrow())) {
+                builder.withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(1))
+                    .add(NestedLootTable.lootTableReference(ResourceKey.create(Registries.LOOT_TABLE,
+                        Identifier.fromNamespaceAndPath(MOD_ID, "blocks/nether_mineral_crystal")))));
+            }
+        });
 
         ResourceKey<CreativeModeTab> tabKey = ResourceKey.create(Registries.CREATIVE_MODE_TAB,
             Identifier.fromNamespaceAndPath(MOD_ID, "main"));
