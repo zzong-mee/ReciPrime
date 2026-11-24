@@ -1,3 +1,4 @@
 {
-  "item.sulfur_gunpowder.sulfur_powder": "Sulfur Powder"
+  "item.sulfur_gunpowder.sulfur_powder": "Sulfur Powder",
+  "itemGroup.sulfur_gunpowder.main": "Sulfur Gunpowder"
 }
