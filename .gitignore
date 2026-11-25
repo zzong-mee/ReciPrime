@@ -1,0 +1,8 @@
+# Gradle generated files
+.gradle/
+build/
+
+# IDE and operating system files
+.idea/
+*.iml
+.DS_Store
