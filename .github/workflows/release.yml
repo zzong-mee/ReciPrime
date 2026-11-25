@@ -1,0 +1,59 @@
+name: Release
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - name: Validate version
+        shell: bash
+        run: |
+          version=$(sed -n 's/^version=//p' gradle.properties | tr -d '\r')
+          [[ "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+(-[0-9A-Za-z.-]+)?$ ]]
+          if [[ "$GITHUB_REF_TYPE" == tag ]]; then
+            [[ "$GITHUB_REF_NAME" == "v$version" ]] || { echo "Tag and mod version differ"; exit 1; }
+          fi
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '25'
+      - uses: gradle/actions/setup-gradle@v5
+      - name: Normalize Gradle wrapper line endings
+        run: sed -i 's/\r$//' gradlew
+      - name: Build
+        run: bash ./gradlew build --no-daemon
+      - uses: actions/upload-artifact@v6
+        with:
+          name: release-jar
+          path: |
+            build/libs/*.jar
+            !build/libs/*-sources.jar
+          if-no-files-found: error
+
+  release:
+    if: github.event_name == 'push' && github.ref_type == 'tag'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v7
+        with:
+          name: release-jar
+          path: release
+      - name: Create draft release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          gh release create "$GITHUB_REF_NAME" release/*.jar --verify-tag --draft --generate-notes --title "$GITHUB_REF_NAME"
