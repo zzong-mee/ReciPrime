@@ -1,0 +1,94 @@
+<div align="center">
+
+![Sulfur Gunpowder 배너](docs/images/banner.png)
+
+# Sulfur Gunpowder
+
+**마인크래프트에서 화약을 제작하는 새로운 바닐라 친화적 방법.**
+
+[![최신 릴리스](https://img.shields.io/github/v/release/zzong-mee/Sulfur_Gunpowder?label=release)](https://github.com/zzong-mee/Sulfur_Gunpowder/releases/latest)
+[![빌드](https://github.com/zzong-mee/Sulfur_Gunpowder/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/zzong-mee/Sulfur_Gunpowder/actions/workflows/build.yml)
+[![라이선스: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-blue)](LICENSE)
+[![총 다운로드](https://img.shields.io/github/downloads/zzong-mee/Sulfur_Gunpowder/total?label=downloads)](https://github.com/zzong-mee/Sulfur_Gunpowder/releases)
+
+[English](README.md) · **한국어**
+
+[최신 버전 다운로드](https://github.com/zzong-mee/Sulfur_Gunpowder/releases/latest) · [변경 내역](CHANGELOG.md) · [문제 제보](https://github.com/zzong-mee/Sulfur_Gunpowder/issues)
+
+</div>
+
+## 모드 소개
+
+**Sulfur Gunpowder**는 Minecraft Java Edition **26.3**용 Fabric 모드로, 바닐라 화약을 얻는 새로운 제작 경로를 제공합니다. 유황을 가공하고 채굴 및 탐험으로 자원을 모아 화약을 만들 수 있으며, 기존 생존 플레이의 흐름을 유지하는 데 중점을 둡니다.
+
+## 주요 기능
+
+- **유황 가루:** 바닐라 유황 블록을 분해해 획득하는 신규 자원
+- **네더 석영 가루:** 네더 석영 광석 채굴 보상에 추가되는 신규 가루 아이템
+- **화약 비정형 조합법:** 재료 배치 순서에 관계없이 바닐라 화약 제작
+- **채굴 시스템:** 네더 석영 광석 추가 보상에 행운 인챈트 적용, 섬세한 손길 사용 시 추가 가루 드롭 제외
+- **크리에이티브 탭:** Sulfur Gunpowder 전용 탭 제공
+- **다국어 지원:** 한국어 및 영어 번역
+- **바닐라풍 그래픽:** 전용 16×16 픽셀 아이템 텍스처
+
+## 인게임 미리보기
+
+| 네더 석영 가루 | 화약 조합법 |
+|:--:|:--:|
+| ![네더 석영 가루 인벤토리](docs/images/nether_quartz_powder_inventory.png) | ![JEI의 화약 조합법 화면](docs/images/gunpowder_recipe_jei.png) |
+
+## 설치 요구 사항
+
+| 구성 요소 | 요구 버전 |
+|---|---|
+| Minecraft Java Edition | **26.3** |
+| Fabric Loader | **0.19.5 이상** |
+| Fabric API | **0.166.2+26.3** (모드 빌드 기준 버전) |
+| Java | **25 이상** |
+| 설치 위치 | **서버와 클라이언트 양쪽** |
+
+## 설치 방법
+
+1. Minecraft 26.3용 **Fabric Loader**를 설치합니다.
+2. **Fabric API**를 설치합니다.
+3. [GitHub Releases](https://github.com/zzong-mee/Sulfur_Gunpowder/releases/tag/v1.0.0)에서 `sulfur_gunpowder-1.0.0.jar`를 다운로드합니다.
+4. 서버와 클라이언트 **양쪽**의 `mods` 폴더에 모드 JAR와 Fabric API를 넣습니다.
+5. Fabric 환경에서 마인크래프트 또는 전용 서버를 실행합니다.
+
+설치할 파일은 일반 모드 JAR입니다. 소스 코드가 담긴 `-sources.jar`는 설치하지 마세요.
+
+## 소스 코드 빌드
+
+개발 환경에 Java 25가 필요합니다.
+
+```bash
+# macOS / Linux
+./gradlew build
+```
+
+```bat
+REM Windows
+gradlew.bat build
+```
+
+빌드 결과물은 `build/libs/` 폴더에서 확인할 수 있습니다.
+
+## 버전 및 변경 내역
+
+- **v1.0.0**은 최초 정식 안정 버전입니다.
+- 이전 버전의 개발 이력은 [CHANGELOG.md](CHANGELOG.md)에 정리되어 있습니다.
+- 배포된 버전은 [Releases 페이지](https://github.com/zzong-mee/Sulfur_Gunpowder/releases)에서 확인할 수 있습니다.
+
+## 라이선스
+
+프로젝트에는 [CC0 1.0 Universal 라이선스](LICENSE)가 포함되어 있습니다.
+
+---
+
+<div align="center">
+
+![Sulfur Gunpowder 로고](docs/images/logo.png)
+
+Minecraft Fabric 커뮤니티를 위한 모드
+
+</div>

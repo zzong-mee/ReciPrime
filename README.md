@@ -1,157 +1,94 @@
+<div align="center">
+
+![Sulfur Gunpowder banner](docs/images/banner.png)
+
 # Sulfur Gunpowder
 
-**Minecraft 26.3 | Fabric | v1.0.0**
+**A vanilla-friendly alternative way to craft gunpowder in Minecraft.**
 
-[English](#english) | [한국어](#한국어)
+[![Release](https://img.shields.io/github/v/release/zzong-mee/Sulfur_Gunpowder?label=release)](https://github.com/zzong-mee/Sulfur_Gunpowder/releases/latest)
+[![Build](https://github.com/zzong-mee/Sulfur_Gunpowder/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/zzong-mee/Sulfur_Gunpowder/actions/workflows/build.yml)
+[![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-blue)](LICENSE)
+[![GitHub Downloads](https://img.shields.io/github/downloads/zzong-mee/Sulfur_Gunpowder/total?label=downloads)](https://github.com/zzong-mee/Sulfur_Gunpowder/releases)
 
-## English
+**English** · [한국어](README.ko.md)
 
-### About
+[Download latest release](https://github.com/zzong-mee/Sulfur_Gunpowder/releases/latest) · [Changelog](CHANGELOG.md) · [Report an issue](https://github.com/zzong-mee/Sulfur_Gunpowder/issues)
 
-Sulfur Gunpowder is a Fabric mod that introduces an alternative way to obtain gunpowder using the sulfur blocks available in vanilla Minecraft.
+</div>
 
-The goal is to encourage mining, exploration, and resource gathering while maintaining the vanilla survival experience.
+## About
 
-### Features
+**Sulfur Gunpowder** is a Fabric mod for Minecraft Java Edition **26.3** that adds an alternative way to obtain vanilla gunpowder. Gather resources through mining and exploration, process sulfur, and craft gunpowder without replacing the vanilla survival experience.
 
-- New items: Sulfur Powder and Nether Quartz Powder
-- Custom vanilla-style 16×16 pixel texture
-- Sulfur block decomposition recipe
-- English and Korean localization
-- Dedicated creative inventory tab
-- Shapeless gunpowder crafting recipe
+## Features
 
-### In-game Screenshots
+- **Sulfur Powder:** A new resource obtained by unpacking vanilla sulfur blocks.
+- **Nether Quartz Powder:** A new powder item connected to Nether quartz ore mining rewards.
+- **Alternative gunpowder recipe:** Craft vanilla gunpowder using a shapeless crafting recipe.
+- **Mining integration:** Nether quartz ore rewards support Fortune, while Silk Touch is excluded from the additional powder drop.
+- **Creative inventory:** A dedicated Sulfur Gunpowder tab.
+- **Localization:** English and Korean item names and text.
+- **Vanilla-style art:** Custom 16×16 item textures.
 
-**Nether Quartz Powder — inventory**
+## In-game previews
 
-![Nether Quartz Powder in inventory](docs/images/nether_quartz_powder_inventory.png)
+| Nether Quartz Powder | Gunpowder crafting |
+|:--:|:--:|
+| ![Nether Quartz Powder in inventory](docs/images/nether_quartz_powder_inventory.png) | ![Gunpowder crafting recipe in JEI](docs/images/gunpowder_recipe_jei.png) |
 
-**JEI crafting preview**
+## Requirements
 
-![JEI crafting preview](docs/images/gunpowder_recipe_jei.png)
+| Component | Version |
+|---|---|
+| Minecraft Java Edition | **26.3** |
+| Fabric Loader | **0.19.5 or newer** |
+| Fabric API | **0.166.2+26.3** (version used to build the mod) |
+| Java | **25 or newer** |
+| Installation | **Both server and client** |
 
-### Development Roadmap
+## Installation
 
-| Version | Development Goals | Status |
-|---|---|---|
-| v0.1.0 | Sulfur Powder item, custom texture, and sulfur block decomposition | Implemented |
-| v0.2.0 | Localization improvements and dedicated creative inventory tab | Implemented |
-| v0.3.0 | Shapeless gunpowder crafting recipe | Implemented |
-| v0.4.0 | Nether Quartz Powder and quartz ore drops | Implemented |
-| v0.4.1 | Fabric Loader 0.19.5 compatibility | Implemented |
-| v1.0.0 | First stable official release | Release candidate |
+1. Install a compatible **Fabric Loader** for Minecraft 26.3.
+2. Install **Fabric API**.
+3. Download `sulfur_gunpowder-1.0.0.jar` from [GitHub Releases](https://github.com/zzong-mee/Sulfur_Gunpowder/releases/tag/v1.0.0).
+4. Put the mod JAR and Fabric API in the `mods` directory **on both the client and server**.
+5. Start Minecraft or the dedicated server with Fabric.
 
-### Requirements
+Download the regular mod JAR, **not** the `-sources.jar` source archive.
 
-- Minecraft Java Edition 26.3
-- Fabric Loader 0.19.5 or newer
-- Java 25 or newer
-- Fabric API 0.166.2+26.3
-- Mod installation on both server and client
+## Build from source
 
-### Installation
+A Java 25 development environment is required.
 
-1. Install Fabric Loader.
-2. Install Fabric API.
-3. Download the mod JAR from the [Releases](../../releases) page.
-4. Place the JAR file in the `mods` folder on both the server and client.
-5. Launch Minecraft.
+```bash
+# macOS / Linux
+./gradlew build
+```
 
-### Build from Source
+```bat
+REM Windows
+gradlew.bat build
+```
 
-Clone this repository and run:
+The compiled mod JAR is written to `build/libs/`.
 
-**Windows**
+## Releases and history
 
-`gradlew.bat build`
+- **v1.0.0** is the first stable release.
+- Previous releases and their changes are documented in [CHANGELOG.md](CHANGELOG.md).
+- View downloadable versions on the [Releases page](https://github.com/zzong-mee/Sulfur_Gunpowder/releases).
 
-**Linux / macOS**
+## License
 
-`./gradlew build`
-
-The compiled JAR files will be generated in `build/libs`.
-
----
-
-## 한국어
-
-### 모드 소개
-
-Sulfur Gunpowder는 바닐라 마인크래프트에 존재하는 유황 블록을 활용하여 새로운 화약 획득 방법을 추가하는 Fabric 모드입니다.
-
-기존 마인크래프트의 생존 플레이 방식을 유지하면서 채굴, 동굴 탐험, 자원 수집의 가치를 높이는 것을 목표로 합니다.
-
-### 주요 기능
-
-- 신규 아이템: 유황 가루, 네더 석영 가루
-- 바닐라 스타일의 16×16 픽셀 전용 텍스처
-- 유황 블록 분해 조합법
-- 한국어 및 영어 지원
-- 크리에이티브 인벤토리 전용 탭
-- 비정형 화약 제작 조합법
-
-### 인게임 스크린샷
-
-**네더 석영 가루 — 인벤토리**
-
-![네더 석영 가루 인벤토리](docs/images/nether_quartz_powder_inventory.png)
-
-**JEI 조합법 화면**
-
-![JEI 조합법 화면](docs/images/gunpowder_recipe_jei.png)
-
-### 개발 로드맵
-
-| 버전 | 개발 목표 | 상태 |
-|---|---|---|
-| v0.1.0 | 유황 가루 아이템, 전용 텍스처 및 유황 블록 분해 조합법 추가 | 구현 완료 |
-| v0.2.0 | 아이템 번역 개선 및 크리에이티브 인벤토리 전용 탭 추가 | 구현 완료 |
-| v0.3.0 | 비정형 화약 제작 조합법 추가 | 구현 완료 |
-| v0.4.0 | 네더 석영 가루 및 광석 드롭 추가 | 구현 완료 |
-| v0.4.1 | Fabric Loader 0.19.5 호환성 개선 | 구현 완료 |
-| v1.0.0 | 최초 정식 안정 버전 출시 | 출시 준비 완료 |
-
-### 설치 요구 사항
-
-- Minecraft Java Edition 26.3
-- Fabric Loader 0.19.5 이상
-- Java 25 이상
-- Fabric API 0.166.2+26.3
-- 서버 및 클라이언트 양쪽에 모드 설치
-
-### 설치 방법
-
-1. Fabric Loader를 설치합니다.
-2. Fabric API를 설치합니다.
-3. [Releases](../../releases) 페이지에서 모드 JAR 파일을 다운로드합니다.
-4. 서버 및 클라이언트의 `mods` 폴더에 JAR 파일을 넣습니다.
-5. 마인크래프트를 실행합니다.
-
-### 소스 코드 빌드
-
-이 저장소를 복제한 후 다음 명령어를 실행합니다.
-
-**Windows**
-
-`gradlew.bat build`
-
-**Linux / macOS**
-
-`./gradlew build`
-
-빌드된 JAR 파일은 `build/libs` 폴더에 생성됩니다.
+This project includes a [CC0 1.0 Universal license](LICENSE).
 
 ---
 
-## Development Status / 개발 상태
+<div align="center">
 
-v1.0.0 is the first stable release series. Versions before v1.0.0 are development releases.
+![Sulfur Gunpowder logo](docs/images/logo.png)
 
-v1.0.0은 최초 정식 안정 버전입니다. 이전 버전은 개발 버전입니다.
+Made for the Minecraft Fabric community.
 
-## License / 라이선스
-
-See the [LICENSE](LICENSE) file for details.
-
-자세한 라이선스 정보는 LICENSE 파일을 참고해 주세요.
+</div>
