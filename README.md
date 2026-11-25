@@ -44,7 +44,7 @@ The goal is to encourage mining, exploration, and resource gathering while maint
 ### Requirements
 
 - Minecraft Java Edition 26.3
-- Fabric Loader 0.20.1
+- Fabric Loader 0.19.5 or newer / 0.19.5 이상
 - Fabric API 0.166.2+26.3
 - Mod installation on both server and client
 
@@ -112,7 +112,7 @@ Sulfur Gunpowder는 바닐라 마인크래프트에 존재하는 유황 블록�
 ### 설치 요구 사항
 
 - Minecraft Java Edition 26.3
-- Fabric Loader 0.20.1
+- Fabric Loader 0.19.5 or newer / 0.19.5 이상
 - Fabric API 0.166.2+26.3
 - 서버 및 클라이언트 양쪽에 모드 설치
 
