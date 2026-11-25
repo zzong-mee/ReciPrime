@@ -3,7 +3,7 @@
   "id": "sulfur_gunpowder",
   "version": "${version}",
   "name": "Sulfur Gunpowder",
-  "description": "Adds a sulfur powder item and a sulfur block unpacking recipe.",
+  "description": "Adds sulfur powder, nether quartz powder, and an alternative gunpowder crafting recipe.",
   "license": "CC0-1.0",
   "icon": "assets/sulfur_gunpowder/icon.png",
   "environment": "*",
