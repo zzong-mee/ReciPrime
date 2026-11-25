@@ -1,6 +1,6 @@
 # Sulfur Gunpowder
 
-**Minecraft 26.3 | Fabric | In Development**
+**Minecraft 26.3 | Fabric | v1.0.0**
 
 [English](#english) | [한국어](#한국어)
 
@@ -14,7 +14,7 @@ The goal is to encourage mining, exploration, and resource gathering while maint
 
 ### Features
 
-- New item: Sulfur Powder
+- New items: Sulfur Powder and Nether Quartz Powder
 - Custom vanilla-style 16×16 pixel texture
 - Sulfur block decomposition recipe
 - English and Korean localization
@@ -38,13 +38,15 @@ The goal is to encourage mining, exploration, and resource gathering while maint
 | v0.1.0 | Sulfur Powder item, custom texture, and sulfur block decomposition | Implemented |
 | v0.2.0 | Localization improvements and dedicated creative inventory tab | Implemented |
 | v0.3.0 | Shapeless gunpowder crafting recipe | Implemented |
-| v0.4.0 | Recipe balancing and survival gameplay improvements | Planned |
-| v1.0.0 | First stable official release | Planned |
+| v0.4.0 | Nether Quartz Powder and quartz ore drops | Implemented |
+| v0.4.1 | Fabric Loader 0.19.5 compatibility | Implemented |
+| v1.0.0 | First stable official release | Release candidate |
 
 ### Requirements
 
 - Minecraft Java Edition 26.3
-- Fabric Loader 0.19.5 or newer / 0.19.5 이상
+- Fabric Loader 0.19.5 or newer
+- Java 25 or newer
 - Fabric API 0.166.2+26.3
 - Mod installation on both server and client
 
@@ -82,7 +84,7 @@ Sulfur Gunpowder는 바닐라 마인크래프트에 존재하는 유황 블록�
 
 ### 주요 기능
 
-- 신규 아이템: 유황 가루
+- 신규 아이템: 유황 가루, 네더 석영 가루
 - 바닐라 스타일의 16×16 픽셀 전용 텍스처
 - 유황 블록 분해 조합법
 - 한국어 및 영어 지원
@@ -106,13 +108,15 @@ Sulfur Gunpowder는 바닐라 마인크래프트에 존재하는 유황 블록�
 | v0.1.0 | 유황 가루 아이템, 전용 텍스처 및 유황 블록 분해 조합법 추가 | 구현 완료 |
 | v0.2.0 | 아이템 번역 개선 및 크리에이티브 인벤토리 전용 탭 추가 | 구현 완료 |
 | v0.3.0 | 비정형 화약 제작 조합법 추가 | 구현 완료 |
-| v0.4.0 | 조합법 밸런스 조정 및 생존 플레이 개선 | 개발 예정 |
-| v1.0.0 | 최초 정식 안정 버전 출시 | 출시 예정 |
+| v0.4.0 | 네더 석영 가루 및 광석 드롭 추가 | 구현 완료 |
+| v0.4.1 | Fabric Loader 0.19.5 호환성 개선 | 구현 완료 |
+| v1.0.0 | 최초 정식 안정 버전 출시 | 출시 준비 완료 |
 
 ### 설치 요구 사항
 
 - Minecraft Java Edition 26.3
-- Fabric Loader 0.19.5 or newer / 0.19.5 이상
+- Fabric Loader 0.19.5 이상
+- Java 25 이상
 - Fabric API 0.166.2+26.3
 - 서버 및 클라이언트 양쪽에 모드 설치
 
@@ -142,9 +146,9 @@ Sulfur Gunpowder는 바닐라 마인크래프트에 존재하는 유황 블록�
 
 ## Development Status / 개발 상태
 
-This project is currently under active development. All versions before v1.0.0 are development releases, and features may change.
+v1.0.0 is the first stable release series. Versions before v1.0.0 are development releases.
 
-현재 프로젝트는 개발 중입니다. v1.0.0 이전의 모든 버전은 개발 버전이며, 기능 및 조합법이 변경될 수 있습니다.
+v1.0.0은 최초 정식 안정 버전입니다. 이전 버전은 개발 버전입니다.
 
 ## License / 라이선스
 
