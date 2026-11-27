@@ -4,7 +4,7 @@
 
 # ReciPrime
 
-**더 많은 조합법, 더 많은 가능성.**
+**바닐라에서 프라임으로.**
 
 [![최신 릴리스](https://img.shields.io/github/v/release/zzong-mee/ReciPrime?label=release)](https://github.com/zzong-mee/ReciPrime/releases/latest)
 [![빌드](https://github.com/zzong-mee/ReciPrime/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/zzong-mee/ReciPrime/actions/workflows/build.yml)

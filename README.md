@@ -4,7 +4,7 @@
 
 # ReciPrime
 
-**More Recipes, More Possibilities.**
+**From Vanilla to Prime.**
 
 [![Release](https://img.shields.io/github/v/release/zzong-mee/ReciPrime?label=release)](https://github.com/zzong-mee/ReciPrime/releases/latest)
 [![Build](https://github.com/zzong-mee/ReciPrime/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/zzong-mee/ReciPrime/actions/workflows/build.yml)
