@@ -38,14 +38,49 @@ ReciPrime이라는 이름은 조합법을 뜻하는 **Recipe**와 수학의 프�
 
 | 아이템 | 생산량 | 조합 방식 |
 |---|---:|---|
+| 화약 | 8개 | 비정형 |
 | 가스트 눈물 | 1개 | 정형 (2가지 방향) |
 | 우는 흑요석 | 1개 | 정형 |
-| 겉날개 | 1개 | 정형 |
-| 화약 | 8개 | 비정형 |
 | 마법이 부여된 황금 사과 | 1개 | 정형 |
 | 불사의 토템 | 1개 | 정형 |
+| 겉날개 | 1개 | 정형 |
 
 바닐라 아이템 6종에 대한 총 7개의 조합법을 제공합니다.
+
+### 조합법 미리보기
+
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <b>화약</b><br>
+      <img src="docs/images/recipes/gunpowder.png" alt="화약 조합법" width="100%">
+    </td>
+    <td width="50%" align="center" valign="top">
+      <b>가스트 눈물</b><br>
+      <img src="docs/images/recipes/ghast_tear.png" alt="가스트 눈물 조합법" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <b>우는 흑요석</b><br>
+      <img src="docs/images/recipes/crying_obsidian.png" alt="우는 흑요석 조합법" width="100%">
+    </td>
+    <td align="center" valign="top">
+      <b>마법이 부여된 황금 사과</b><br>
+      <img src="docs/images/recipes/enchanted_golden_apple.png" alt="마법이 부여된 황금 사과 조합법" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <b>불사의 토템</b><br>
+      <img src="docs/images/recipes/totem_of_undying.png" alt="불사의 토템 조합법" width="100%">
+    </td>
+    <td align="center" valign="top">
+      <b>겉날개</b><br>
+      <img src="docs/images/recipes/elytra.png" alt="겉날개 조합법" width="100%">
+    </td>
+  </tr>
+</table>
 
 ## 호환성
 

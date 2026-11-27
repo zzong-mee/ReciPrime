@@ -38,14 +38,49 @@ The name ReciPrime combines **Recipe** with the mathematical prime symbol (′),
 
 | Item | Output | Recipe type |
 |---|---:|---|
+| Gunpowder | 8 | Shapeless |
 | Ghast Tear | 1 | Shaped (two orientations) |
 | Crying Obsidian | 1 | Shaped |
-| Elytra | 1 | Shaped |
-| Gunpowder | 8 | Shapeless |
 | Enchanted Golden Apple | 1 | Shaped |
 | Totem of Undying | 1 | Shaped |
+| Elytra | 1 | Shaped |
 
 Seven crafting recipes are available for six vanilla items.
+
+### Recipe previews
+
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <b>Gunpowder</b><br>
+      <img src="docs/images/recipes/gunpowder.png" alt="Gunpowder recipe" width="100%">
+    </td>
+    <td width="50%" align="center" valign="top">
+      <b>Ghast Tear</b><br>
+      <img src="docs/images/recipes/ghast_tear.png" alt="Ghast Tear recipes" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <b>Crying Obsidian</b><br>
+      <img src="docs/images/recipes/crying_obsidian.png" alt="Crying Obsidian recipe" width="100%">
+    </td>
+    <td align="center" valign="top">
+      <b>Enchanted Golden Apple</b><br>
+      <img src="docs/images/recipes/enchanted_golden_apple.png" alt="Enchanted Golden Apple recipe" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <b>Totem of Undying</b><br>
+      <img src="docs/images/recipes/totem_of_undying.png" alt="Totem of Undying recipe" width="100%">
+    </td>
+    <td align="center" valign="top">
+      <b>Elytra</b><br>
+      <img src="docs/images/recipes/elytra.png" alt="Elytra recipe" width="100%">
+    </td>
+  </tr>
+</table>
 
 ## Compatibility
 
