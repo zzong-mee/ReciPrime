@@ -1,9 +1,9 @@
 package com.reciprime.mixin;
 
+import com.reciprime.recipe.CraftingRemainders;
 import net.minecraft.core.NonNullList;
 import net.minecraft.world.inventory.ResultSlot;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.CraftingInput;
 import net.minecraft.world.item.crafting.RecipeHolder;
 import org.spongepowered.asm.mixin.Mixin;
@@ -19,24 +19,14 @@ public abstract class ResultSlotMixin {
         at = @At("RETURN")
     )
     private static void reciprime$returnGlassBottle(
-        CraftingInput input,
-        RecipeHolder<?> recipe,
-        CallbackInfoReturnable<NonNullList<ItemStack>> cir
+            CraftingInput input,
+            RecipeHolder<?> recipe,
+            CallbackInfoReturnable<NonNullList<ItemStack>> cir
     ) {
-        String recipeId = recipe.id().identifier().toString();
-
-        if (!recipeId.equals("reciprime:ghast_tear")
-                && !recipeId.equals("reciprime:ghast_tear_rotated")) {
-            return;
-        }
-
-        NonNullList<ItemStack> remaining = cir.getReturnValue();
-
-        for (int i = 0; i < input.size(); i++) {
-            if (input.getItem(i).is(Items.POTION)
-                    && remaining.get(i).isEmpty()) {
-                remaining.set(i, new ItemStack(Items.GLASS_BOTTLE));
-            }
-        }
+        CraftingRemainders.apply(
+            input,
+            recipe,
+            cir.getReturnValue()
+        );
     }
 }

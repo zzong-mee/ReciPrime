@@ -19,7 +19,8 @@
   ],
   "rewards": {
     "recipes": [
-      "reciprime:ghast_tear"
+      "reciprime:ghast_tear",
+      "reciprime:ghast_tear_rotated"
     ]
   }
 }
