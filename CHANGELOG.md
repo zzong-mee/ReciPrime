@@ -4,6 +4,37 @@ Release history for **ReciPrime** (formerly Sulfur Gunpowder). For downloadable 
 
 **ReciPrime**(구 Sulfur Gunpowder)의 버전별 변경 내역입니다. 배포 파일은 [GitHub Releases](https://github.com/zzong-mee/ReciPrime/releases)에서 다운로드할 수 있습니다.
 
+## Unreleased — ReciPrime v1.1.0
+
+### Changed / 변경
+
+- Rebranded Sulfur Gunpowder to ReciPrime.
+- Changed the mod ID to `reciprime`.
+- Updated the logo, icon, slogan, and documentation.
+- Shifted development toward vanilla-only crafting recipes.
+- Sulfur Gunpowder를 ReciPrime으로 리브랜딩했습니다.
+- 모드 ID를 `reciprime`으로 변경했습니다.
+- 로고, 아이콘, 슬로건 및 문서를 갱신했습니다.
+- 바닐라 아이템 중심의 조합법 모드로 개발 방향을 변경했습니다.
+
+### Removed / 제거
+
+- Removed Sulfur Powder and Nether Quartz Powder.
+- Removed custom item textures, translations, and creative inventory tab.
+- Removed additional Nether quartz ore drops.
+- Removed previous custom recipes and their recipe unlock conditions.
+- 유황 가루와 네더 석영 가루를 제거했습니다.
+- 커스텀 아이템 텍스처, 번역 및 전용 크리에이티브 탭을 제거했습니다.
+- 네더 석영 광석의 추가 드롭을 제거했습니다.
+- 기존 커스텀 조합법 및 레시피북 해금 조건을 제거했습니다.
+
+### Breaking changes / 호환성 변경
+
+- Previous custom items are no longer available.
+- No automatic migration is provided. Back up existing worlds before upgrading.
+- 이전 버전의 커스텀 아이템은 더 이상 사용할 수 없습니다.
+- 자동 마이그레이션을 지원하지 않습니다. 업데이트 전 기존 월드를 백업하세요.
+
 ## [v1.0.0](https://github.com/zzong-mee/ReciPrime/releases/tag/v1.0.0) — First stable release / 첫 정식 출시
 
 - First stable release, based on the tested v0.4.1 features.

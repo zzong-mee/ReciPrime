@@ -25,21 +25,16 @@ Designed to expand crafting possibilities while preserving the balance and spiri
 
 The name ReciPrime combines **Recipe** with the mathematical prime symbol (′), representing new possibilities derived from existing recipes.
 
-## Features
+## Development direction
 
-- **Sulfur Powder:** A new resource obtained by unpacking vanilla sulfur blocks.
-- **Nether Quartz Powder:** A new powder item connected to Nether quartz ore mining rewards.
-- **Alternative gunpowder recipe:** Craft vanilla gunpowder using a shapeless crafting recipe.
-- **Mining integration:** Nether quartz ore rewards support Fortune, while Silk Touch is excluded from the additional powder drop.
-- **Creative inventory:** A dedicated ReciPrime tab.
-- **Localization:** English and Korean item names and text.
-- **Vanilla-style art:** Custom 16×16 item textures.
+ReciPrime v1.1.0 is currently in development.
 
-## In-game previews
+- Alternative crafting recipes using vanilla Minecraft items.
+- No custom items or dedicated creative inventory tabs.
+- Preservation of vanilla gameplay and existing resource drops.
+- New crafting recipes are currently being developed.
 
-| Nether Quartz Powder | Gunpowder crafting |
-|:--:|:--:|
-| ![Nether Quartz Powder in inventory](docs/images/nether_quartz_powder_inventory.png) | ![Gunpowder crafting recipe in JEI](docs/images/gunpowder_recipe_jei.png) |
+> **Compatibility notice:** Custom items from previous releases have been removed. Back up existing worlds before upgrading.
 
 ## Requirements
 
