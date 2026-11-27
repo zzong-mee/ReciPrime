@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "sulfur_gunpowder",
+  "id": "reciprime",
   "version": "${version}",
   "name": "ReciPrime",
   "description": "Adds alternative crafting recipes for vanilla Minecraft resources.",
   "license": "CC0-1.0",
-  "icon": "assets/sulfur_gunpowder/icon.png",
+  "icon": "assets/reciprime/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.sulfurgunpowder.SulfurGunpowder"
+      "com.reciprime.ReciPrime"
     ]
   },
   "depends": {

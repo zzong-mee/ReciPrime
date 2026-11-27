@@ -9,5 +9,5 @@ pluginManagement {
 	}
 }
 
-// Should match your modid
-rootProject.name = 'sulfur_gunpowder'
+// Gradle project name
+rootProject.name = 'ReciPrime'

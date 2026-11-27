@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "reciprime:nether_quartz_powder",
+    "reciprime:nether_quartz_powder",
+    "reciprime:sulfur_powder",
+    "#minecraft:coals",
+    "#minecraft:coals",
+    "#minecraft:coals"
+  ],
+  "result": {
+    "id": "minecraft:gunpowder",
+    "count": 6
+  }
+}
