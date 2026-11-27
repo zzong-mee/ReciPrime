@@ -4,7 +4,7 @@ Release history for **ReciPrime** (formerly Sulfur Gunpowder). For downloadable 
 
 **ReciPrime**(구 Sulfur Gunpowder)의 버전별 변경 내역입니다. 배포 파일은 [GitHub Releases](https://github.com/zzong-mee/ReciPrime/releases)에서 다운로드할 수 있습니다.
 
-## v1.1.0 — From Vanilla to Prime
+## v2.0.0 — From Vanilla to Prime
 
 ### Added / 추가
 

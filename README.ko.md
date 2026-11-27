@@ -86,7 +86,7 @@ ReciPrime이라는 이름은 조합법을 뜻하는 **Recipe**와 수학의 프�
 
 > **호환성 주의:** 모드 ID가 `sulfur_gunpowder`에서 `reciprime`으로 변경되었습니다. 이전 버전의 커스텀 아이템은 제거되었으며 자동 마이그레이션을 지원하지 않습니다. 업데이트 전 기존 월드를 백업하세요.
 
-싱글플레이 기능 테스트를 완료했습니다. v1.1.0의 전용 서버 및 멀티플레이 호환성은 아직 검증하지 않았습니다.
+싱글플레이 기능 테스트를 완료했습니다. v2.0.0의 전용 서버 및 멀티플레이 호환성은 아직 검증하지 않았습니다.
 
 ## 설치 요구 사항
 
@@ -102,7 +102,7 @@ ReciPrime이라는 이름은 조합법을 뜻하는 **Recipe**와 수학의 프�
 
 1. Minecraft 26.3용 **Fabric Loader**를 설치합니다.
 2. **Fabric API**를 설치합니다.
-3. [GitHub Releases](https://github.com/zzong-mee/ReciPrime/releases)에서 `ReciPrime-1.1.0.jar`를 다운로드합니다.
+3. [GitHub Releases](https://github.com/zzong-mee/ReciPrime/releases)에서 `ReciPrime-2.0.0.jar`를 다운로드합니다.
 4. 서버와 클라이언트 **양쪽**의 `mods` 폴더에 모드 JAR와 Fabric API를 넣습니다.
 5. Fabric 환경에서 마인크래프트 또는 전용 서버를 실행합니다.
 
@@ -127,7 +127,7 @@ gradlew.bat build
 ## 버전 및 변경 내역
 
 - **v1.0.0**은 Sulfur Gunpowder라는 이름으로 출시된 최초 정식 안정 버전입니다.
-- **v1.1.0**에서는 ReciPrime으로 브랜드를 변경하고 바닐라 아이템 중심의 조합법을 제공합니다.
+- **v2.0.0**에서는 ReciPrime으로 브랜드를 변경하고 바닐라 아이템 중심의 조합법을 제공합니다.
 - 이전 버전의 개발 이력은 [CHANGELOG.md](CHANGELOG.md)에 정리되어 있습니다.
 - 배포된 버전은 [Releases 페이지](https://github.com/zzong-mee/ReciPrime/releases)에서 확인할 수 있습니다.
 

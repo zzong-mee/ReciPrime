@@ -86,7 +86,7 @@ Seven crafting recipes are available for six vanilla items.
 
 > **Breaking changes:** The mod ID has changed from `sulfur_gunpowder` to `reciprime`. Previous custom items have been removed, and automatic migration is not provided. Back up existing worlds before upgrading.
 
-Single-player functionality has been tested. Dedicated server and multiplayer compatibility have not been verified for v1.1.0.
+Single-player functionality has been tested. Dedicated server and multiplayer compatibility have not been verified for v2.0.0.
 
 ## Requirements
 
@@ -102,7 +102,7 @@ Single-player functionality has been tested. Dedicated server and multiplayer co
 
 1. Install a compatible **Fabric Loader** for Minecraft 26.3.
 2. Install **Fabric API**.
-3. Download `ReciPrime-1.1.0.jar` from [GitHub Releases](https://github.com/zzong-mee/ReciPrime/releases).
+3. Download `ReciPrime-2.0.0.jar` from [GitHub Releases](https://github.com/zzong-mee/ReciPrime/releases).
 4. Put the mod JAR and Fabric API in the `mods` directory **on both the client and server**.
 5. Start Minecraft or the dedicated server with Fabric.
 
@@ -127,7 +127,7 @@ The compiled mod JAR is written to `build/libs/`.
 ## Releases and history
 
 - **v1.0.0** is the first stable release, published under the former Sulfur Gunpowder name.
-- **v1.1.0** introduces the ReciPrime identity and vanilla-only crafting recipes.
+- **v2.0.0** introduces the ReciPrime identity and vanilla-only crafting recipes.
 - Previous releases and their changes are documented in [CHANGELOG.md](CHANGELOG.md).
 - View downloadable versions on the [Releases page](https://github.com/zzong-mee/ReciPrime/releases).
 
