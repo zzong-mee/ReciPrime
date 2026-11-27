@@ -1,41 +1,92 @@
 <div align="center">
 
-![Sulfur Gunpowder banner](docs/images/banner.png)
+<img src="docs/images/reciprime_logo.png" alt="ReciPrime logo" width="160">
 
-# Sulfur Gunpowder
+# ReciPrime
 
-**A vanilla-friendly alternative way to craft gunpowder in Minecraft.**
+**From Vanilla to Prime.**
 
-[![Release](https://img.shields.io/github/v/release/zzong-mee/Sulfur_Gunpowder?label=release)](https://github.com/zzong-mee/Sulfur_Gunpowder/releases/latest)
-[![Build](https://github.com/zzong-mee/Sulfur_Gunpowder/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/zzong-mee/Sulfur_Gunpowder/actions/workflows/build.yml)
+[![Release](https://img.shields.io/github/v/release/zzong-mee/ReciPrime?label=release)](https://github.com/zzong-mee/ReciPrime/releases/latest)
+[![Build](https://github.com/zzong-mee/ReciPrime/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/zzong-mee/ReciPrime/actions/workflows/build.yml)
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-blue)](LICENSE)
-[![GitHub Downloads](https://img.shields.io/github/downloads/zzong-mee/Sulfur_Gunpowder/total?label=downloads)](https://github.com/zzong-mee/Sulfur_Gunpowder/releases)
+[![GitHub Downloads](https://img.shields.io/github/downloads/zzong-mee/ReciPrime/total?label=downloads)](https://github.com/zzong-mee/ReciPrime/releases)
 
 **English** · [한국어](README.ko.md)
 
-[Download latest release](https://github.com/zzong-mee/Sulfur_Gunpowder/releases/latest) · [Changelog](CHANGELOG.md) · [Report an issue](https://github.com/zzong-mee/Sulfur_Gunpowder/issues)
+[Download latest release](https://github.com/zzong-mee/ReciPrime/releases/latest) · [Changelog](CHANGELOG.md) · [Report an issue](https://github.com/zzong-mee/ReciPrime/issues)
 
 </div>
 
 ## About
 
-**Sulfur Gunpowder** is a Fabric mod for Minecraft Java Edition **26.3** that adds an alternative way to obtain vanilla gunpowder. Gather resources through mining and exploration, process sulfur, and craft gunpowder without replacing the vanilla survival experience.
+**ReciPrime** is a vanilla-friendly Fabric mod for Minecraft Java Edition **26.3** that introduces alternative crafting recipes and new ways to obtain resources.
+
+Designed to expand crafting possibilities while preserving the balance and spirit of vanilla Minecraft, ReciPrime offers new approaches to familiar items without changing the core survival experience.
+
+The name ReciPrime combines **Recipe** with the mathematical prime symbol (′), representing new possibilities derived from existing recipes.
 
 ## Features
 
-- **Sulfur Powder:** A new resource obtained by unpacking vanilla sulfur blocks.
-- **Nether Quartz Powder:** A new powder item connected to Nether quartz ore mining rewards.
-- **Alternative gunpowder recipe:** Craft vanilla gunpowder using a shapeless crafting recipe.
-- **Mining integration:** Nether quartz ore rewards support Fortune, while Silk Touch is excluded from the additional powder drop.
-- **Creative inventory:** A dedicated Sulfur Gunpowder tab.
-- **Localization:** English and Korean item names and text.
-- **Vanilla-style art:** Custom 16×16 item textures.
+- Alternative crafting recipes using only vanilla Minecraft items.
+- No custom items or dedicated creative inventory tabs.
+- Recipe book unlocks for all added recipes.
+- Crafting table and Crafter support.
+- Glass bottle returns for Ghast Tear and Elytra crafting.
+- Existing vanilla recipes and resource drops are preserved.
 
-## In-game previews
+## Crafting recipes
 
-| Nether Quartz Powder | Gunpowder crafting |
-|:--:|:--:|
-| ![Nether Quartz Powder in inventory](docs/images/nether_quartz_powder_inventory.png) | ![Gunpowder crafting recipe in JEI](docs/images/gunpowder_recipe_jei.png) |
+| Item | Output | Recipe type |
+|---|---:|---|
+| Gunpowder | 8 | Shapeless |
+| Ghast Tear | 1 | Shaped (two orientations) |
+| Crying Obsidian | 1 | Shaped |
+| Enchanted Golden Apple | 1 | Shaped |
+| Totem of Undying | 1 | Shaped |
+| Elytra | 1 | Shaped |
+
+Seven crafting recipes are available for six vanilla items.
+
+### Recipe previews
+
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <b>Gunpowder</b><br>
+      <img src="docs/images/recipes/gunpowder.png" alt="Gunpowder recipe" width="100%">
+    </td>
+    <td width="50%" align="center" valign="top">
+      <b>Ghast Tear</b><br>
+      <img src="docs/images/recipes/ghast_tear.png" alt="Ghast Tear recipes" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <b>Crying Obsidian</b><br>
+      <img src="docs/images/recipes/crying_obsidian.png" alt="Crying Obsidian recipe" width="100%">
+    </td>
+    <td align="center" valign="top">
+      <b>Enchanted Golden Apple</b><br>
+      <img src="docs/images/recipes/enchanted_golden_apple.png" alt="Enchanted Golden Apple recipe" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <b>Totem of Undying</b><br>
+      <img src="docs/images/recipes/totem_of_undying.png" alt="Totem of Undying recipe" width="100%">
+    </td>
+    <td align="center" valign="top">
+      <b>Elytra</b><br>
+      <img src="docs/images/recipes/elytra.png" alt="Elytra recipe" width="100%">
+    </td>
+  </tr>
+</table>
+
+## Compatibility
+
+> **Breaking changes:** The mod ID has changed from `sulfur_gunpowder` to `reciprime`. Previous custom items have been removed, and automatic migration is not provided. Back up existing worlds before upgrading.
+
+Single-player functionality has been tested. Dedicated server and multiplayer compatibility have not been verified for v2.0.0.
 
 ## Requirements
 
@@ -51,7 +102,7 @@
 
 1. Install a compatible **Fabric Loader** for Minecraft 26.3.
 2. Install **Fabric API**.
-3. Download `sulfur_gunpowder-1.0.0.jar` from [GitHub Releases](https://github.com/zzong-mee/Sulfur_Gunpowder/releases/tag/v1.0.0).
+3. Download `ReciPrime-2.0.0.jar` from [GitHub Releases](https://github.com/zzong-mee/ReciPrime/releases).
 4. Put the mod JAR and Fabric API in the `mods` directory **on both the client and server**.
 5. Start Minecraft or the dedicated server with Fabric.
 
@@ -75,19 +126,17 @@ The compiled mod JAR is written to `build/libs/`.
 
 ## Releases and history
 
-- **v1.0.0** is the first stable release.
+- **v1.0.0** is the first stable release, published under the former Sulfur Gunpowder name.
+- **v2.0.0** introduces the ReciPrime identity and vanilla-only crafting recipes.
 - Previous releases and their changes are documented in [CHANGELOG.md](CHANGELOG.md).
-- View downloadable versions on the [Releases page](https://github.com/zzong-mee/Sulfur_Gunpowder/releases).
+- View downloadable versions on the [Releases page](https://github.com/zzong-mee/ReciPrime/releases).
 
 ## License
 
 This project includes a [CC0 1.0 Universal license](LICENSE).
 
 ---
-
 <div align="center">
-
-![Sulfur Gunpowder logo](docs/images/logo.png)
 
 Made for the Minecraft Fabric community.
 

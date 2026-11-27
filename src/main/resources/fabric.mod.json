@@ -1,17 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "sulfur_gunpowder",
+  "id": "reciprime",
   "version": "${version}",
-  "name": "Sulfur Gunpowder",
-  "description": "Adds sulfur powder, nether quartz powder, and an alternative gunpowder crafting recipe.",
+  "name": "ReciPrime",
+  "description": "Adds alternative crafting recipes for vanilla Minecraft resources.",
   "license": "CC0-1.0",
-  "icon": "assets/sulfur_gunpowder/icon.png",
+  "icon": "assets/reciprime/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.sulfurgunpowder.SulfurGunpowder"
+      "com.reciprime.ReciPrime"
     ]
   },
+  "mixins": [
+    "reciprime.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.19.5",
     "minecraft": "~26.3",

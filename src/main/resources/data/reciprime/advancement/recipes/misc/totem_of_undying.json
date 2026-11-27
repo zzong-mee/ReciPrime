@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_enchanted_golden_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_golden_apple"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_enchanted_golden_apple"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "reciprime:totem_of_undying"
+    ]
+  }
+}

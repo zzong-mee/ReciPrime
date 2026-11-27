@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sulfur": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sulfur"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sulfur"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "reciprime:gunpowder"
+    ]
+  }
+}

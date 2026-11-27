@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ghast_tear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ghast_tear"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ghast_tear"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "reciprime:crying_obsidian"
+    ]
+  }
+}
