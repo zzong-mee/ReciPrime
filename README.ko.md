@@ -1,25 +1,25 @@
 <div align="center">
 
-![Sulfur Gunpowder 배너](docs/images/banner.png)
+<img src="docs/images/logo.png" alt="ReciPrime logo" width="160">
 
-# Sulfur Gunpowder
+# ReciPrime
 
-**마인크래프트에서 화약을 제작하는 새로운 바닐라 친화적 방법.**
+**더 많은 조합법, 더 많은 가능성.**
 
-[![최신 릴리스](https://img.shields.io/github/v/release/zzong-mee/Sulfur_Gunpowder?label=release)](https://github.com/zzong-mee/Sulfur_Gunpowder/releases/latest)
-[![빌드](https://github.com/zzong-mee/Sulfur_Gunpowder/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/zzong-mee/Sulfur_Gunpowder/actions/workflows/build.yml)
+[![최신 릴리스](https://img.shields.io/github/v/release/zzong-mee/ReciPrime?label=release)](https://github.com/zzong-mee/ReciPrime/releases/latest)
+[![빌드](https://github.com/zzong-mee/ReciPrime/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/zzong-mee/ReciPrime/actions/workflows/build.yml)
 [![라이선스: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-blue)](LICENSE)
-[![총 다운로드](https://img.shields.io/github/downloads/zzong-mee/Sulfur_Gunpowder/total?label=downloads)](https://github.com/zzong-mee/Sulfur_Gunpowder/releases)
+[![총 다운로드](https://img.shields.io/github/downloads/zzong-mee/ReciPrime/total?label=downloads)](https://github.com/zzong-mee/ReciPrime/releases)
 
 [English](README.md) · **한국어**
 
-[최신 버전 다운로드](https://github.com/zzong-mee/Sulfur_Gunpowder/releases/latest) · [변경 내역](CHANGELOG.md) · [문제 제보](https://github.com/zzong-mee/Sulfur_Gunpowder/issues)
+[최신 버전 다운로드](https://github.com/zzong-mee/ReciPrime/releases/latest) · [변경 내역](CHANGELOG.md) · [문제 제보](https://github.com/zzong-mee/ReciPrime/issues)
 
 </div>
 
 ## 모드 소개
 
-**Sulfur Gunpowder**는 Minecraft Java Edition **26.3**용 Fabric 모드로, 바닐라 화약을 얻는 새로운 제작 경로를 제공합니다. 유황을 가공하고 채굴 및 탐험으로 자원을 모아 화약을 만들 수 있으며, 기존 생존 플레이의 흐름을 유지하는 데 중점을 둡니다.
+**ReciPrime**(구 Sulfur Gunpowder)는 Minecraft Java Edition **26.3**용 Fabric 모드로, 바닐라 화약을 얻는 새로운 제작 경로를 제공합니다. 유황을 가공하고 채굴 및 탐험으로 자원을 모아 화약을 만들 수 있으며, 기존 생존 플레이의 흐름을 유지하는 데 중점을 둡니다.
 
 ## 주요 기능
 
@@ -27,7 +27,7 @@
 - **네더 석영 가루:** 네더 석영 광석 채굴 보상에 추가되는 신규 가루 아이템
 - **화약 비정형 조합법:** 재료 배치 순서에 관계없이 바닐라 화약 제작
 - **채굴 시스템:** 네더 석영 광석 추가 보상에 행운 인챈트 적용, 섬세한 손길 사용 시 추가 가루 드롭 제외
-- **크리에이티브 탭:** Sulfur Gunpowder 전용 탭 제공
+- **크리에이티브 탭:** ReciPrime 전용 탭 제공
 - **다국어 지원:** 한국어 및 영어 번역
 - **바닐라풍 그래픽:** 전용 16×16 픽셀 아이템 텍스처
 
@@ -51,7 +51,7 @@
 
 1. Minecraft 26.3용 **Fabric Loader**를 설치합니다.
 2. **Fabric API**를 설치합니다.
-3. [GitHub Releases](https://github.com/zzong-mee/Sulfur_Gunpowder/releases/tag/v1.0.0)에서 `sulfur_gunpowder-1.0.0.jar`를 다운로드합니다.
+3. [GitHub Releases](https://github.com/zzong-mee/ReciPrime/releases/tag/v1.0.0)에서 `sulfur_gunpowder-1.0.0.jar`를 다운로드합니다.
 4. 서버와 클라이언트 **양쪽**의 `mods` 폴더에 모드 JAR와 Fabric API를 넣습니다.
 5. Fabric 환경에서 마인크래프트 또는 전용 서버를 실행합니다.
 
@@ -75,19 +75,17 @@ gradlew.bat build
 
 ## 버전 및 변경 내역
 
-- **v1.0.0**은 최초 정식 안정 버전입니다.
+- **v1.0.0**은 Sulfur Gunpowder라는 이름으로 출시된 최초 정식 안정 버전입니다.
+- **v1.1.0**에서는 ReciPrime으로 브랜드를 변경하며 개발을 진행하고 있습니다.
 - 이전 버전의 개발 이력은 [CHANGELOG.md](CHANGELOG.md)에 정리되어 있습니다.
-- 배포된 버전은 [Releases 페이지](https://github.com/zzong-mee/Sulfur_Gunpowder/releases)에서 확인할 수 있습니다.
+- 배포된 버전은 [Releases 페이지](https://github.com/zzong-mee/ReciPrime/releases)에서 확인할 수 있습니다.
 
 ## 라이선스
 
 프로젝트에는 [CC0 1.0 Universal 라이선스](LICENSE)가 포함되어 있습니다.
 
 ---
-
 <div align="center">
-
-![Sulfur Gunpowder 로고](docs/images/logo.png)
 
 Minecraft Fabric 커뮤니티를 위한 모드
 
