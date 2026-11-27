@@ -13,3 +13,5 @@
 
 *.png binary
 *.jar binary
+/.gitignore text eol=lf
+/.gitattributes text eol=lf
