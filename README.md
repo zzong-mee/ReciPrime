@@ -19,7 +19,11 @@
 
 ## About
 
-**ReciPrime** (formerly Sulfur Gunpowder) is a Fabric mod for Minecraft Java Edition **26.3** that adds an alternative way to obtain vanilla gunpowder. Gather resources through mining and exploration, process sulfur, and craft gunpowder without replacing the vanilla survival experience.
+**ReciPrime** is a vanilla-friendly Fabric mod for Minecraft Java Edition **26.3** that introduces alternative crafting recipes and new ways to obtain resources.
+
+Designed to expand crafting possibilities while preserving the balance and spirit of vanilla Minecraft, ReciPrime offers new approaches to familiar items without changing the core survival experience.
+
+The name ReciPrime combines **Recipe** with the mathematical prime symbol (′), representing new possibilities derived from existing recipes.
 
 ## Features
 
