@@ -4,18 +4,54 @@ Release history for **ReciPrime** (formerly Sulfur Gunpowder). For downloadable 
 
 **ReciPrime**(구 Sulfur Gunpowder)의 버전별 변경 내역입니다. 배포 파일은 [GitHub Releases](https://github.com/zzong-mee/ReciPrime/releases)에서 다운로드할 수 있습니다.
 
-## Unreleased — ReciPrime v1.1.0
+## v1.1.0 — From Vanilla to Prime
+
+### Added / 추가
+
+- Added seven crafting recipes for six vanilla items.
+- Added Ghast Tear crafting in two orientations.
+- Added Crying Obsidian crafting.
+- Added Elytra crafting.
+- Added an alternative Gunpowder crafting recipe.
+- Restored Enchanted Golden Apple crafting.
+- Added Totem of Undying crafting.
+- Added recipe book unlocks for all new recipes.
+- Added glass bottle return support for Ghast Tear crafting.
+- Added Crafter compatibility for Ghast Tear crafting.
+- 바닐라 아이템 6종에 대한 조합법 7개를 추가했습니다.
+- 가스트 눈물의 두 가지 방향 조합법을 추가했습니다.
+- 우는 흑요석 조합법을 추가했습니다.
+- 겉날개 조합법을 추가했습니다.
+- 화약 대체 조합법을 추가했습니다.
+- 마법이 부여된 황금 사과 조합법을 복원했습니다.
+- 불사의 토템 조합법을 추가했습니다.
+- 모든 신규 조합법의 레시피북 해금을 지원합니다.
+- 가스트 눈물 제작 시 유리병 반환 기능을 추가했습니다.
+- 가스트 눈물 제작의 자동 제작기 호환성을 구현했습니다.
 
 ### Changed / 변경
 
 - Rebranded Sulfur Gunpowder to ReciPrime.
 - Changed the mod ID to `reciprime`.
+- Updated the Java package and resource namespace.
 - Updated the logo, icon, slogan, and documentation.
 - Shifted development toward vanilla-only crafting recipes.
+- Standardized repository line endings.
 - Sulfur Gunpowder를 ReciPrime으로 리브랜딩했습니다.
 - 모드 ID를 `reciprime`으로 변경했습니다.
+- Java 패키지 및 리소스 네임스페이스를 변경했습니다.
 - 로고, 아이콘, 슬로건 및 문서를 갱신했습니다.
 - 바닐라 아이템 중심의 조합법 모드로 개발 방향을 변경했습니다.
+- 저장소의 줄바꿈 형식을 표준화했습니다.
+
+### Fixed / 수정
+
+- Ensured that both Ghast Tear recipe orientations are unlocked.
+- Unified crafting remainder handling for crafting tables and Crafters.
+- Preserved existing crafting remainders to avoid duplicate bottle returns.
+- 가스트 눈물의 두 가지 조합법이 모두 해금되도록 수정했습니다.
+- 일반 제작대와 자동 제작기의 제작 잔여물 처리 로직을 통합했습니다.
+- 기존 제작 잔여물을 유지하여 유리병 중복 반환을 방지했습니다.
 
 ### Removed / 제거
 
@@ -30,10 +66,19 @@ Release history for **ReciPrime** (formerly Sulfur Gunpowder). For downloadable 
 
 ### Breaking changes / 호환성 변경
 
+- Changed the mod ID from `sulfur_gunpowder` to `reciprime`.
 - Previous custom items are no longer available.
 - No automatic migration is provided. Back up existing worlds before upgrading.
+- 모드 ID가 `sulfur_gunpowder`에서 `reciprime`으로 변경되었습니다.
 - 이전 버전의 커스텀 아이템은 더 이상 사용할 수 없습니다.
 - 자동 마이그레이션을 지원하지 않습니다. 업데이트 전 기존 월드를 백업하세요.
+
+### Testing / 테스트
+
+- Local build and single-player regression testing completed.
+- Dedicated server and multiplayer compatibility have not been verified.
+- 로컬 빌드 및 싱글플레이 회귀 테스트를 완료했습니다.
+- 전용 서버 및 멀티플레이 호환성은 검증하지 않았습니다.
 
 ## [v1.0.0](https://github.com/zzong-mee/ReciPrime/releases/tag/v1.0.0) — First stable release / 첫 정식 출시
 

@@ -25,16 +25,33 @@ Designed to expand crafting possibilities while preserving the balance and spiri
 
 The name ReciPrime combines **Recipe** with the mathematical prime symbol (′), representing new possibilities derived from existing recipes.
 
-## Development direction
+## Features
 
-ReciPrime v1.1.0 is currently in development.
-
-- Alternative crafting recipes using vanilla Minecraft items.
+- Alternative crafting recipes using only vanilla Minecraft items.
 - No custom items or dedicated creative inventory tabs.
-- Preservation of vanilla gameplay and existing resource drops.
-- New crafting recipes are currently being developed.
+- Recipe book unlocks for all added recipes.
+- Crafting table and Crafter support.
+- Glass bottle returns for Ghast Tear and Elytra crafting.
+- Existing vanilla recipes and resource drops are preserved.
 
-> **Compatibility notice:** Custom items from previous releases have been removed. Back up existing worlds before upgrading.
+## Crafting recipes
+
+| Item | Output | Recipe type |
+|---|---:|---|
+| Ghast Tear | 1 | Shaped (two orientations) |
+| Crying Obsidian | 1 | Shaped |
+| Elytra | 1 | Shaped |
+| Gunpowder | 8 | Shapeless |
+| Enchanted Golden Apple | 1 | Shaped |
+| Totem of Undying | 1 | Shaped |
+
+Seven crafting recipes are available for six vanilla items.
+
+## Compatibility
+
+> **Breaking changes:** The mod ID has changed from `sulfur_gunpowder` to `reciprime`. Previous custom items have been removed, and automatic migration is not provided. Back up existing worlds before upgrading.
+
+Single-player functionality has been tested. Dedicated server and multiplayer compatibility have not been verified for v1.1.0.
 
 ## Requirements
 
@@ -50,7 +67,7 @@ ReciPrime v1.1.0 is currently in development.
 
 1. Install a compatible **Fabric Loader** for Minecraft 26.3.
 2. Install **Fabric API**.
-3. For the existing v1.0.0 release, download `sulfur_gunpowder-1.0.0.jar` from [GitHub Releases](https://github.com/zzong-mee/ReciPrime/releases/tag/v1.0.0).
+3. Download `ReciPrime-1.1.0.jar` from [GitHub Releases](https://github.com/zzong-mee/ReciPrime/releases).
 4. Put the mod JAR and Fabric API in the `mods` directory **on both the client and server**.
 5. Start Minecraft or the dedicated server with Fabric.
 
@@ -75,7 +92,7 @@ The compiled mod JAR is written to `build/libs/`.
 ## Releases and history
 
 - **v1.0.0** is the first stable release, published under the former Sulfur Gunpowder name.
-- **v1.1.0** is in development and introduces the ReciPrime identity.
+- **v1.1.0** introduces the ReciPrime identity and vanilla-only crafting recipes.
 - Previous releases and their changes are documented in [CHANGELOG.md](CHANGELOG.md).
 - View downloadable versions on the [Releases page](https://github.com/zzong-mee/ReciPrime/releases).
 
